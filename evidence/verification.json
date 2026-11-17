@@ -1,0 +1,102 @@
+{
+  "chain_id": 61999,
+  "rpc": "https://studio.genlayer.com/api",
+  "contract": "0x7DbC438ec037A1EBE4E00c24dc3c43D0b22c3E7B",
+  "source_sha256": "14434c71b5742110260ca9933046530f16a52f1416fbff375cd5e6a8c7b5d7ce",
+  "source_byte_parity": true,
+  "variant": "latest-final",
+  "transactions": [
+    {
+      "name": "deploy",
+      "hash": "0x48c8f70dc2d399a584c8f10c195bab09639851d83b5728de06813c38c4bc4d5c",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "expected_success": true
+    },
+    {
+      "name": "seal-feasible",
+      "hash": "0x3f6a3f28614fb0772c869038447be7b9c874f37919ded8cdaac1f317740c07ea",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "expected_success": true
+    },
+    {
+      "name": "seal-unknown",
+      "hash": "0xa58d83e2165d6e0271f4f917fbae336fb3d65464a90cfc5cda43ff998c090d54",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "expected_success": true
+    },
+    {
+      "name": "seal-bounded-conflict",
+      "hash": "0x994d5aa8aa0fbe5b23b9f926803dc1d4a2b7080989e4484800cff44f7b934176",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "expected_success": true
+    },
+    {
+      "name": "analyze-feasible",
+      "hash": "0x1ff73638e5e7d9c3b73c5d9e19b5e58cf07d9237886c4680eda870d6815b7ee4",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "expected_success": true
+    },
+    {
+      "name": "analyze-unknown",
+      "hash": "0xd7353b44884c1cc5424d1ff2a1003d9437a411dcb077c85e1ae10fcde9a8f8d9",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "expected_success": true
+    },
+    {
+      "name": "analyze-bounded-conflict",
+      "hash": "0x716409e63da0c873b6e28a0c9fe22c689503798a600a11f0fbfd2501b5303ed9",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "expected_success": true
+    },
+    {
+      "name": "invalid-schedule",
+      "hash": "0x36c1ceedcffdee09949d84174c1834ccd25efa1099f40cfd60574af0566f741e",
+      "status": "FINALIZED",
+      "execution": "ERROR",
+      "expected_success": false
+    },
+    {
+      "name": "unknown-cannot-commit",
+      "hash": "0x5705bec4d0179f3cd112b7249e3f8d017db9bce1805fabda7c446aae069809db",
+      "status": "FINALIZED",
+      "execution": "ERROR",
+      "expected_success": false
+    },
+    {
+      "name": "conflict-cannot-commit",
+      "hash": "0x4e4c4ad0e98d8b96c12f5ff7d2ba94d149497616ab1d314b1069b2989fab0917",
+      "status": "FINALIZED",
+      "execution": "ERROR",
+      "expected_success": false
+    },
+    {
+      "name": "commit-schedule",
+      "hash": "0xe3b88823b8f1c99238d2038e552a7631699e1a3b86d92e43235930322cfd49d8",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "expected_success": true
+    },
+    {
+      "name": "duplicate-commit",
+      "hash": "0x5b651a25637a8d268d6fe16193e741eef78086adccb644766a8f9eda465ec2e7",
+      "status": "FINALIZED",
+      "execution": "ERROR",
+      "expected_success": false
+    }
+  ],
+  "unsuccessful_attempts": [],
+  "records": [
+    "handover",
+    "conflict",
+    "unknown"
+  ],
+  "proof_verification": "Independent interval, cycle, schedule and commitment verification passed for 3 records.",
+  "verified_at": "2026-11-17T18:52:05.429Z"
+}

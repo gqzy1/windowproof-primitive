@@ -1,0 +1,6 @@
+test_sdk_returns_json_objects_without_string_decoding (test_windowproof.SdkJsonRegressionTests.test_sdk_returns_json_objects_without_string_decoding) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK

@@ -1,0 +1,13 @@
+{
+  "title": "Exhibition handover",
+  "events": [
+    "Start",
+    "Install",
+    "Open"
+  ],
+  "horizon": 120,
+  "clauses": [
+    "Install timing relative to Start is unspecified; no minimum or maximum elapsed time is provided.",
+    "Open must occur between 5 and 15 minutes after Install."
+  ]
+}

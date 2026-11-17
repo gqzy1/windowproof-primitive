@@ -1,0 +1,98 @@
+{
+  "kind": "read-only RPC schema compilation",
+  "chain_id": 61999,
+  "rpc": "https://studio.genlayer.com/api",
+  "source_sha256": "4c2fb92454c22203f83d68c4658b97b5d1c7de208916f7ddf1f4792d608268fe",
+  "schema": {
+    "ctor": {
+      "params": [],
+      "kwparams": {}
+    },
+    "methods": {
+      "analyze": {
+        "params": [
+          [
+            "record_id",
+            "string"
+          ],
+          [
+            "expected_revision",
+            "int"
+          ]
+        ],
+        "kwparams": {},
+        "readonly": false,
+        "ret": "string",
+        "payable": false
+      },
+      "commit_schedule": {
+        "params": [
+          [
+            "record_id",
+            "string"
+          ],
+          [
+            "expected_revision",
+            "int"
+          ],
+          [
+            "analysis_hash",
+            "string"
+          ],
+          [
+            "times_json",
+            "string"
+          ]
+        ],
+        "kwparams": {},
+        "readonly": false,
+        "ret": "string",
+        "payable": false
+      },
+      "get_record": {
+        "params": [
+          [
+            "record_id",
+            "string"
+          ]
+        ],
+        "kwparams": {},
+        "readonly": true,
+        "ret": "string"
+      },
+      "list_records": {
+        "params": [
+          [
+            "owner",
+            "string"
+          ]
+        ],
+        "kwparams": {},
+        "readonly": true,
+        "ret": "string"
+      },
+      "protocol": {
+        "params": [],
+        "kwparams": {},
+        "readonly": true,
+        "ret": "string"
+      },
+      "seal": {
+        "params": [
+          [
+            "tag",
+            "string"
+          ],
+          [
+            "payload",
+            "string"
+          ]
+        ],
+        "kwparams": {},
+        "readonly": false,
+        "ret": "string",
+        "payable": false
+      }
+    }
+  }
+}

@@ -1,0 +1,6 @@
+test_failures_never_turn_into_review (test_windowproof.WindowTests.test_failures_never_turn_into_review) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+OK

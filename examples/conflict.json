@@ -1,0 +1,14 @@
+{
+  "title": "Exhibition handover",
+  "events": [
+    "Start",
+    "Install",
+    "Open"
+  ],
+  "horizon": 120,
+  "clauses": [
+    "Install must occur between 10 and 20 minutes after Start.",
+    "Open must occur between 5 and 15 minutes after Install.",
+    "Open must occur between 0 and 4 minutes after Start."
+  ]
+}

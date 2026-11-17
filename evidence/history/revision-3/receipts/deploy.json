@@ -1,0 +1,62 @@
+{
+  "hash": "0xda523a71a1195eff7e8be32305c566665c77bb73f24da4b66b10430652cf1415",
+  "from_address": "0x57ca3563136571EbA4db3dBb6BF101238F36bDE1",
+  "to_address": "0xa4D2FC8e817554c6c0C05a68c00e0E7397858F78",
+  "status": 7,
+  "statusName": "FINALIZED",
+  "result": 6,
+  "leader_only": false,
+  "execution_mode": "NORMAL",
+  "data": {
+    "calldata": {
+      "base64": "Bg==",
+      "raw": [
+        6
+      ],
+      "readable": "{}"
+    },
+    "contract_address": "0xa4D2FC8e817554c6c0C05a68c00e0E7397858F78"
+  },
+  "consensus_data": {
+    "votes": {
+      "0x29A864a96A51c4e816ef65E95f18F0dfF2165569": "agree",
+      "0x70C9Ed8761ac32887e536D03657bfADAD436210F": "idle",
+      "0x9e716966Fbc31a155250000CfC6C5E0aefbA9a95": "agree",
+      "0xbf44ED2c27E8Cc6b36FBF6890B8fDAD3b220cC88": "agree",
+      "0xc3Acc646761d7BC43a47ccEB1F60E7078B1d51Fc": "idle"
+    },
+    "leader_receipt": [
+      {
+        "mode": "leader",
+        "vote": null,
+        "execution_result": "SUCCESS",
+        "result": {
+          "raw": "AAA=",
+          "status": "return",
+          "payload": {
+            "raw": [
+              0
+            ],
+            "readable": "null"
+          }
+        },
+        "eq_outputs": {}
+      },
+      {
+        "mode": "validator",
+        "vote": "agree",
+        "execution_result": "SUCCESS",
+        "result": {
+          "raw": "AAA=",
+          "status": "return",
+          "payload": {
+            "raw": [
+              0
+            ],
+            "readable": "null"
+          }
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+test_explicit_unknown_allows_omitted_nulls_only (test_windowproof.NullableJsonRegressionTests.test_explicit_unknown_allows_omitted_nulls_only) ... ok
+test_missing_unbounded_side_preserves_finite_bound (test_windowproof.NullableJsonRegressionTests.test_missing_unbounded_side_preserves_finite_bound) ... ok
+test_sdk_returns_json_objects_without_string_decoding (test_windowproof.SdkJsonRegressionTests.test_sdk_returns_json_objects_without_string_decoding) ... ok
+test_complete_lifecycle_and_tight_windows (test_windowproof.WindowTests.test_complete_lifecycle_and_tight_windows) ... ok
+test_direction_normalization_and_semantic_disagreement (test_windowproof.WindowTests.test_direction_normalization_and_semantic_disagreement) ... ok
+test_explicit_impossible_interval_and_horizon_conflict (test_windowproof.WindowTests.test_explicit_impossible_interval_and_horizon_conflict) ... ok
+test_injection_disagreement_does_not_mutate (test_windowproof.WindowTests.test_injection_disagreement_does_not_mutate) ... ok
+test_model_failures_never_turn_into_review (test_windowproof.WindowTests.test_model_failures_never_turn_into_review) ... ok
+test_rejected_writes_are_unchanged (test_windowproof.WindowTests.test_rejected_writes_are_unchanged) ... ok
+test_schema_anchor_and_limits (test_windowproof.WindowTests.test_schema_anchor_and_limits) ... ok
+test_unknown_and_conflict_are_distinct (test_windowproof.WindowTests.test_unknown_and_conflict_are_distinct) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.004s
+
+OK

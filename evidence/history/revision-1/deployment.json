@@ -1,0 +1,8 @@
+{
+  "chain_id": 61999,
+  "rpc": "https://studio.genlayer.com/api",
+  "sdk": "genlayer-js@1.1.8",
+  "contract": "0xAd5C79497DD39F0944fe37eD4120c5bce0C004b4",
+  "deployment_transaction": "0x4b8d6ae352a3d862104b0ed91d0c18bb23d2803aa0bad12462deb4ff135f3332",
+  "source_sha256": "4c2fb92454c22203f83d68c4658b97b5d1c7de208916f7ddf1f4792d608268fe"
+}
